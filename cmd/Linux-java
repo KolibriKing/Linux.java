@@ -1,0 +1,4 @@
+#!/bin/bash
+
+javac -d $LINUXJAVA_INSTALL_DIR $LINUXJAVA_INSTALL_DIR/src/*.java
+java $LINUXJAVA_INSTALL_DIR/Main.java
