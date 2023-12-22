@@ -5,7 +5,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import lib.Log;
-import sys.Shell;
+import sys.ShellCommand;
 
 public class Interactive {
   public static void load() {

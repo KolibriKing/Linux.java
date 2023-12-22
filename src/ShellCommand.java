@@ -8,7 +8,7 @@ public class ShellCommand {
   public void ShellCommand(String rawCmd) {
     String lastArg;
     boolean readArg = false;
-    for (int i = 0; i < rawCmd.length; i++) {
+    for (int i = 0; i < rawCmd.length(); i++) {
     }
     /*$TODO: Here i need to make something like this JavaScript code
      for (char of string) {
